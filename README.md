@@ -32,3 +32,6 @@ Request Body (JSON):
 
 4. Run:
    npx nodemon server.js
+
+## Live Endpoint
+POST https://bitespeed-identity-reconciliation-wyvu.onrender.com/identify
