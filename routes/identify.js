@@ -91,7 +91,7 @@ router.post('/', async (req, res) => {
     );
 
     const mainPrimary = primaries[0];
-    // 🔥 Merge other primaries if more than one
+    // Merge other primaries if more than one
     if (primaries.length > 1) {
 
         for (let i = 1; i < primaries.length; i++) {
