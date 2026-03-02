@@ -9,7 +9,7 @@ app.use(express.json());
 app.use('/identify', identifyRoute);
 
 app.get('/', (req, res) => {
-  res.send("Server is running 🚀");
+  res.send("Server is running");
 });
 
 app.listen(process.env.PORT, () => {
